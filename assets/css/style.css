@@ -7,3 +7,31 @@
     width: 200px;
     height: 200px;
 }
+.comparison_right_image{
+    width: 500px;
+    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+.header_text{
+    color: darkturquoise;
+    text-align: center;
+}
+
+.navbar_box{
+    background-color: darkturquoise;
+    color:white !important;
+    font-weight: bold;
+    padding: 10px;
+}
+.navbar_bar{
+   background-color: lightgrey;
+  
+}
+@media (max-width:1000px){
+    .navbar_box{
+        background-color:lightgray !important;
+        color:darkturquoise !important;
+    } 
+}
